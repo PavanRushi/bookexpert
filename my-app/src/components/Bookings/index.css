@@ -1,0 +1,31 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 100vh;
+  }
+  
+  .name-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .name-input {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    outline: none;
+    width: 250px;
+  }
+  

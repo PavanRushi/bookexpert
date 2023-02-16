@@ -1,0 +1,37 @@
+.faqs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 80vh;
+  }
+  
+  .faqs-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .answer {
+    margin-top: 20px;
+  }
+  
